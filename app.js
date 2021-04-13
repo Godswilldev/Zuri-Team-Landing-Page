@@ -88,7 +88,7 @@ const stickyNav = (entries) => {
 const navObserver = new IntersectionObserver(stickyNav, {
   threshold: 0,
   root: null,
-  rootMargin: `${navHeight + 50}px`,
+  rootMargin: `${navHeight}px`,
 });
 
 navObserver.observe(navigation);
