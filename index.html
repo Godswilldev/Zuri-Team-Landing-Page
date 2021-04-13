@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuri Landing Page TeamPoseidon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="./campton-cufonfonts/" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="navigation">
+      <nav class="nav">
+        <div class="nav__logo">
+          <img
+            src="./images/header_icon.png"
+            alt="nav logo"
+            class="nav__logo--img"
+          />
+        </div>
+        <ul class="nav__links">
+          <li><a href="#" class="nav__item">Home</a></li>
+          <li><a href="#" class="nav__item">About</a></li>
+          <li><a href="#" class="nav__item">Curriculum</a></li>
+          <li><a href="#" class="nav__item">Contact</a></li>
+          <li>
+            <a class="btn btn__primary nav__item" href="#"
+              >Join Zuri Training</a
+            >
+          </li>
+        </ul>
+        <div class="nav__hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <div class="hero_container">
+        <div class="hero">
+          <div class="hero_title">
+            <h1>
+              Enroll For Zuri 2021 <br />
+              Cohort Training
+            </h1>
+            <p>
+              Gain enough knowledge to help you get <br />
+              started in the tech industry for free
+            </p>
+            <button class="btn btn__primary">Enroll Now</button>
+          </div>
+
+          <img
+            src="./images/image for zuri landing page.png"
+            class="hero_img"
+            alt="students img"
+          />
+        </div>
+      </div>
+
+      <article class="article_title">
+        <div class="article_home">
+          <h2 class="heading__secondary">Why Zuri Training?</h2>
+          <p class="article_p1">
+            At Zuri Training, you will gain access to enough <br />
+            knowledge to introduce and aid your success in the <br />
+            tech industry.
+          </p>
+          <p class="article_p1">
+            The program is a 4-month long program aimed at <br />
+            getting you started in an industry. We understand it <br />
+            is impossible to become an expert at anything in <br />
+            just 4 months. However, we promise to give you <br />
+            everything you need to get started.
+          </p>
+        </div>
+
+        <div class="article_list">
+          <div class="article_list_container">
+            <div class="article_list_items">
+              <i class="fas fa-tv"></i>
+              <a href="#">Fully Remote</a>
+            </div>
+
+            <div class="article_list_items">
+              <i class="fas fa-user-friends"></i>
+              <a href="#">Collaborative Learning</a>
+            </div>
+
+            <div class="article_list_items">
+              <i class="far fa-check-circle"></i>
+              <a href="#">Hands-on Experience</a>
+            </div>
+
+            <div class="article_list_items">
+              <i class="far fa-eye"></i>
+              <a href="#">Real Life Projects</a>
+            </div>
+
+            <div class="article_list_items">
+              <i class="fas fa-signature"></i>
+              <a href="#">Beginner Friendly</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <section class="subsection">
+        <h2 class="heading__secondary">Tracks</h2>
+
+        <div class="subsection_container">
+          <div class="subsection_items">
+            <h3>Front-End Development</h3>
+            <p>HTML, CSS, Javascript</p>
+          </div>
+
+          <div class="subsection_items">
+            <h3>Back-End Development</h3>
+            <p>Python, PHP, Javascript</p>
+          </div>
+
+          <div class="subsection_items">
+            <h3>Cloud Development</h3>
+            <p>AWS, Azure</p>
+          </div>
+
+          <div class="subsection_items">
+            <h3>Mobile Development</h3>
+            <p>Java, Flutter, Kotlin</p>
+          </div>
+
+          <div class="subsection_items">
+            <h3>Design</h3>
+            <p>UI/UX, Graphics Design</p>
+          </div>
+
+          <div class="subsection_items">
+            <h3>Frameworks</h3>
+            <p>Lavarel, ReactJS, Django</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="sign-in">
+      <p class="heading__secondary">Enter your details to register</p>
+      <form class="info">
+        <div>
+          <p class="info-header">First Name</p>
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter your first name here"
+          />
+        </div>
+        <div>
+          <p class="info-header">Last Name</p>
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter your last name here"
+          />
+        </div>
+        <div>
+          <p class="info-header">Email Address</p>
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter your email address here"
+          />
+        </div>
+        <div>
+          <p class="info-header">Phone Number</p>
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter your phone number here"
+          />
+        </div>
+        <div class="labels">
+          <label class="info-header" for="nationality">Country</label>
+          <select class="input" name="country" id="country">
+            <option value="#">--Country--</option>
+            <option value="#">Nigeria</option>
+            <option value="#">Ghana</option>
+            <option value="#">Togo</option>
+            <option value="#">Cameroon</option>
+          </select>
+        </div>
+        <div class="labels">
+          <label class="info-header" for="Track">Track</label>
+          <select class="input" name="track" id="track">
+            <option value="#">--Track--</option>
+            <option value="#">Front-End Development</option>
+            <option value="#">Back-End Development</option>
+            <option value="#">UI/UX Design</option>
+            <option value="#">Mobile App Development</option>
+          </select>
+        </div>
+        <div class="labels">
+          <label class="info-header" for="Gender">Gender</label>
+          <select class="input" name="gender" id="gender">
+            <option value="#">--Gender--</option>
+
+            <option value="#">Male</option>
+            <option value="#">Female</option>
+            <option value="#">Others</option>
+          </select>
+        </div>
+        <div class="labels">
+          <label class="info-header" for="Age">Age Range</label>
+          <select class="input" name="age" id="age">
+            <option value="#">--Age--</option>
+
+            <option value="#">16-18</option>
+            <option value="#">19-25</option>
+            <option value="#">26-30</option>
+            <option value="#">35-40</option>
+            <option value="#">40-45</option>
+          </select>
+        </div>
+        <div class="labels">
+          <label class="info-header" for="Experience">Experience Level</label>
+          <select class="input" name="experience" id="experience">
+            <option value="#">--Experience--</option>
+
+            <option value="#">Beginner</option>
+            <option value="#">Intermediate</option>
+            <option value="#">Professional</option>
+          </select>
+        </div>
+        <div class="labels">
+          <label class="info-header" for="Education">Educational Level</label>
+          <select class="input" name="education" id="education">
+            <option value="#">--Education--</option>
+            <option value="#">High School</option>
+            <option value="#">Undergraduate</option>
+            <option value="#">Graduate</option>
+            <option value="#">Post-Graduate</option>
+          </select>
+        </div>
+        <div class="labels">
+          <label class="info-header" for="Employment">Employment Status</label>
+          <select class="input" name="employment" id="employment">
+            <option value="#">--Employment-Status--</option>
+
+            <option value="#">Undergraduate</option>
+            <option value="#">Graduate</option>
+            <option value="#">Post-Graduate</option>
+            <option value="#">Emlpoyed</option>
+            <option value="#">Self-Employed</option>
+            <option value="#">Unemployed</option>
+            <option value="#">Freelance</option>
+          </select>
+        </div>
+        <div class="labels">
+          <label class="info-header" for="Awareness"
+            >How did you hear about us</label
+          >
+          <select class="input" name="awareness" id="awareness">
+            <option value="#">--Awareness--</option>
+
+            <option value="#">Social Media</option>
+            <option value="#">A Friend</option>
+            <option value="#">A Mentor</option>
+            <option value="#">HNG</option>
+            <option value="#">I4G</option>
+            <option value="#">Zuri</option>
+          </select>
+        </div>
+        <div class="labels">
+          <p class="info-header">
+            Say something about yourself in one sentence
+          </p>
+          <input class="input" type="text" placeholder="About yourself" />
+        </div>
+      </form>
+      <button class="btn">Enroll Now</button>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-bold column-container">
+          <img src="./images/Zuri's logo.png" alt="zuri's logo" />
+          <p class="footer-small">powered by</p>
+          <img class="big" src="./images/i4g's logo.png" alt="i4g's logo" />
+        </div>
+
+        <div class="footer-bold column-container">
+          <p>Quick Links</p>
+          <a href="#">Home</a>
+          <a href="#">Curriculum</a>
+          <a href="#">FAQ</a>
+          <a href="#">Terms and Conditions</a>
+        </div>
+        <div class="footer-bold column-container">
+          <p>Contact Us</p>
+          <a href="#">Email</a>
+          <a href="#">Blog</a>
+          <a href="#">Stores</a>
+        </div>
+        <div class="footer-bold column-container">
+          <p>Office Address</p>
+          <p class="a">8, Jubilee-CMD Road,<br />Magodo, Lagos State</p>
+          <aside class="icon-section">
+            <p class="footer-bold">Follow Us</p>
+            <section class="socialIcons">
+              <img
+                class="svg"
+                src="./images/facebook.svg"
+                alt="facebook icon"
+              />
+              <img class="svg" src="./images/twitter.svg" alt="twitter icon" />
+              <img
+                class="svg"
+                src="./images/instagram.svg"
+                alt="instagram icon"
+              />
+              <img
+                class="svg"
+                src="./images/linkedin.svg"
+                alt="linkedin icon"
+              />
+            </section>
+          </aside>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2021 Zuri Training (Team Poseidon)</p>
+    </footer>
+    <div class="overlay"></div>
+  </body>
+</html>
